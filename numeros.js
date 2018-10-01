@@ -1,3 +1,5 @@
+//ver documentação em http://devdocs.io/javascript-number/
+
 const peso1 = 71.0;
 const peso2 = Number("65.0");
 const peso3 = 81.25;
