@@ -32,3 +32,9 @@ console.log(numero, typeof numero);
 
 numero = "H";
 console.log(numero, typeof numero);
+
+for (var index = 0; index < 3; index++) {
+    
+}
+
+console.log(index);
