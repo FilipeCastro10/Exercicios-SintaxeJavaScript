@@ -1,13 +1,13 @@
 //um objeto é mua instância de uma function. Estas representam as classes em javascript.
 
-function name (){
-    let stringName;
+function name (name){
+    let stringName = name;
 }
 
 const func2 = function(){
 }
 
-const obj1 = new name();// um objeto. uma instância da function name
+const obj1 = new name("pedro");// um objeto. uma instância da function name
 const obj2 = new func2; // na criação de um objeto os parenteses são opcionais.
 
 console.log(typeof name);

@@ -3,7 +3,7 @@ function imprimeSoma(a, b){
     console.log(a+b);
 }
 
-function Subtracao(a, b = 0){// Atribui 0 a b caso a chamada da função não passe o valor de b
+function Subtracao(a, b = 0){// b = 0 como valor padrão caso a chamada da função não passe o valor de b
     return a-b;
 }
 
@@ -30,6 +30,7 @@ const soma = function (a,b){
 
 console.log(soma(2,3)); //5
 
+
 //Arrow Functions armazenadas em uma variavel:
 const div = (num1, num2) => { //=> substitui a palavra function
     return num1/num2;
@@ -37,11 +38,14 @@ const div = (num1, num2) => { //=> substitui a palavra function
 
 console.log(div(10,3).toFixed(2));
 
+
 //Arrow Functions com retorno implícito:
 const imprimeMult = (num1, num2) => console.log(num1*num2); //não é necessário a palavra return
+
 imprimeMult(2,2);
 
-//Arrow Functions com retorno implícito com apenas uma parametro:
+
+//Arrow Functions com retorno implícito com apenas um parametro:
 const adiciona_a = a => a+1;
 
 console.log(adiciona_a(2));// exibe 3
