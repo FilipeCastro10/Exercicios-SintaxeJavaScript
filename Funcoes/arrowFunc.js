@@ -1,8 +1,9 @@
+//function expression
 let dobro = function (num) {
     return num * 2;
 }
 
-//transformando em func arrow
+//transformando em arrow function
 dobro = (num) => { 
     return num * 2;
 }
