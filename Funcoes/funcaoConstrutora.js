@@ -1,3 +1,4 @@
+//Construir objetos a partir da função. A função funciona como uma classe.
 function Carro(velocidadeMaxima = 200, delta = 5){
     //Atributo private, só pode ser acessado por metodos publicos.
     let velocidadeAtual = 0;
