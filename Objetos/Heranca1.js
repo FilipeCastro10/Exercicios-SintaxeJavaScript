@@ -1,8 +1,8 @@
 //Priorize a composição de objetos em detrimento de Herança.
 
 /* prototipo é o objeto "pai", que será herdado pelo objeto "filho".
- * Todo objeto criado herda de Object. Ou seja, o atributo __proto__ do objeto 
- * criado aponta para o pai Object.prototype.
+ * Todo objeto criado "herda de Object.prototype Ou seja, o atributo __proto__ 
+ * do objeto criado aponta para o pai Object.prototype.
  * Abaixo, O prototipo(pai) de avô é o Object.prototype. 
  * __proto__ está Deprecated(descontinuado). 
  */
