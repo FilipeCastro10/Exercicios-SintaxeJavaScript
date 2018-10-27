@@ -1,0 +1,24 @@
+{
+  "name": "sintaxejavascript",
+  "version": "1.0.0",
+  "description": "Projeto sintaxe JavaScript.",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CastroFilipe/SintaxeJavaScript.git"
+  },
+  "author": "Filipe Castro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CastroFilipe/SintaxeJavaScript/issues"
+  },
+  "homepage": "https://github.com/CastroFilipe/SintaxeJavaScript#readme"
+}
