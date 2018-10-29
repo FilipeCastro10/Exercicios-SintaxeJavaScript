@@ -2,7 +2,7 @@
   "name": "sintaxejavascript",
   "version": "1.0.0",
   "description": "Projeto sintaxe JavaScript.",
-  "main": "index.js",
+  "main": "naoExiste.js",
   "dependencies": {
     "axios": "^0.18.0",
     "lodash": "^4.17.11"
