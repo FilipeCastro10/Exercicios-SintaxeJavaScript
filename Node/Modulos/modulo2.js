@@ -3,7 +3,7 @@
 module.exports = {
     boaNoite: "Boa noite",
     bomDia(){
-        return "Bom dia"
+        return "Boooom dia!!!!"
     }
 
 }

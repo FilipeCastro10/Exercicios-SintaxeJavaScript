@@ -9,7 +9,7 @@ let a = 1; //Essa variavel estará visivel apenas dentro do modulo e não poder�
 //os atributos serão acessados no moduloCliente
 
 // o modulo é um objeto.
-console.log(typeof module.exports, typeof this, typeof exports);
+console.log(typeof module.exports, typeof this, typeof exports);//object object object
 console.log(module.exports === this); //true
 console.log(module.exports === exports); //true
 
@@ -19,7 +19,8 @@ console.log("Mensagem de teste", a);
 /*
 
 module.exports = {} //atribuindo um novo objeto
-//ao imprimir novamente teremos undefined pois module.exports recebeu um novo objeto. 
+
+//ao imprimir novamente a variavel2 teremos undefined pois module.exports recebeu um novo objeto. 
 console.log("variavel2",module.exports.variavel2); 
 
 */
